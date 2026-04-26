@@ -19,8 +19,7 @@ A análise do histórico de versões revela um ciclo de vida ágil, iterativo e 
 
 - **Rastreabilidade:** O projeto utiliza versionamento semântico e mantém registros detalhados das alterações nos arquivos CHANGELOG.md e JOURNAL.md, o que contribui para o controle de configuração do produto.
 
-![Changelog](./imagens/changelog.png)
-![Journal](./imagens/journal.png)
+![Changelog](./imagens/changelog.png) ![Journal](./imagens/journal.png)
 
 ## 4. Inexistência de Ferramentas de Gestão Administrativa
 Um ponto determinante desta análise é a ausência total de utilização das ferramentas nativas de gestão do GitHub para fins administrativos:
