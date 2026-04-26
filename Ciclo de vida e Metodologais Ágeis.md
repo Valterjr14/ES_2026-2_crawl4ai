@@ -6,6 +6,7 @@ O objetivo desse relatório é analisar os processos de Gerência de Projetos (G
 ## Planeamento Estratégico e Escopo
 O planeamento de longo prazo do projeto está centralizado no arquivo 'ROADMAP.md'.
 - **Estrutura:** O ROADMAP divide-se em quatro seções principais: Advanced Crawling Systems, Specialized Features, Development Tools e Community & Growth.
+![seções principais](./imagens/Seções-Principais.png)
 - **Abordagem do Planejamento:** Observa-se um planeamento focado nas funcionalidades, mas que carece de cronogramas explícitos, estimativas de esforço ou prazos definidos, características fundamentais para o alinhamento com o CMMI.
 
 ## Ritmo de Entrega e Ciclo de Vida
