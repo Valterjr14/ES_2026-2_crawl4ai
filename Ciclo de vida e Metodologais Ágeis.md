@@ -19,7 +19,8 @@ A análise do histórico de versões revela um ciclo de vida ágil, iterativo e 
 
 - **Rastreabilidade:** O projeto utiliza versionamento semântico e mantém registros detalhados das alterações nos arquivos CHANGELOG.md e JOURNAL.md, o que contribui para o controle de configuração do produto.
 
-![Changelog](./imagens/changelog.png) ![Journal](./imagens/journal.png)
+![Changelog](./imagens/changelog.png) 
+![Journal](./imagens/journal.png)
 
 ## 4. Inexistência de Ferramentas de Gestão Administrativa
 Um ponto determinante desta análise é a ausência total de utilização das ferramentas nativas de gestão do GitHub para fins administrativos:
@@ -34,4 +35,7 @@ Dessa forma, percebe-se que o controle está sendo realizado principalmente de m
 A gestão de riscos foca-se na resiliência do software perante fatores externos:
 - **Dependência de LLMs:** O risco de mudanças nas APIs de terceiros (OpenAI, Anthropic) é reduzido por uma arquitetura multidependente e flexível através do LLMConfig.
 - **Segurança:** O projeto demonstra uma resposta rápida na correção de falhas importantes, como vulnerabilidades críticas de segurança (como RCE e LFI), resolvendo esses problemas em pouco tempo após serem identificados.
+
+![RCE e LFI](./imagens/rce-lfi.png)
+
 - **Ambiente Hostil:** A adição de sistemas de detecção de anti-bot e mecanismos de fallback na versão v0.8.5 demonstra que a equipe se antecipou a possíveis falhas durante a execução do projeto.
