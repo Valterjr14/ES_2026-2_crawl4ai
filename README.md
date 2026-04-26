@@ -52,12 +52,19 @@ O Crawl4AI é uma biblioteca open source em Python que realiza web crawling e sc
 A auditoria está dividida em cinco tópicos. Os arquivos estão organizados da seguinte forma:
 
 ES_2026-1_Crawl4AI/
+
 ├── README.md
+
 ├── Ciclo de Vida e Metodologias Ágeis.md
+
 ├── Engenharia de Requisitos.md
+
 ├── Arquitetura e Modelagem.md
+
 ├── Verificação e Validação.md
+
 ├── Qualidade de Software.md
+
 └── imagens/
 
 ---
@@ -67,10 +74,15 @@ ES_2026-1_Crawl4AI/
 A análise foi conduzida diretamente no repositório do Crawl4AI no GitHub, com inspeção de issues, pull requests, releases, workflows de CI/CD e arquivos de documentação. Cada tópico foi avaliado segundo os critérios do CMMI-DEV v2.0 e do MPS.BR.
 
 Tópico - Área de Processo - Alinhamento
+
 I. Ciclo de Vida e Metodologias Ágeis - Gerência de Projetos (GPR) - CMMI: Planejamento, Monitoramento e Controle / MPS.BR
+
 II. Engenharia de Requisitos - Gerência de Requisitos (GRE) - CMMI: REQM / MPS.BR
+
 III. Arquitetura e Modelagem - Projeto e Construção (PJR) - CMMI: Solução Técnica / MPS.BR
+
 IV. Verificação e Validação - V&V | CMMI: VER/VAL / MPS.BR
+
 V. Qualidade de Software - Garantia da Qualidade (GQA) - CMMI: PPQA / MPS.BR
 
 ---
