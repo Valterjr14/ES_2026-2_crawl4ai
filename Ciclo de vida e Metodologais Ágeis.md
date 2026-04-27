@@ -22,9 +22,12 @@ A análise do histórico de versões revela um ciclo de vida ágil, iterativo e 
 ![Changelog](./imagens/changelog.png) 
 ![Journal](./imagens/journal.png)
 
-## 4. Inexistência de Ferramentas de Gestão Administrativa
-Um ponto determinante desta análise é a ausência total de utilização das ferramentas nativas de gestão do GitHub para fins administrativos:
-- **Milestones:** Observa-se que a aba de Milestones está vazia, o que indica que não foram definidos marcos temporais ou metas no repositório.
+## 4. Subutilização de Ferramentas de Gestão Administrativa
+Um ponto determinante desta análise é a má de utilização das ferramentas nativas de gestão do GitHub para fins administrativos:
+
+![Milestones 2](./imagens/milestones2.png)
+
+- **Milestones:** Observa-se que a aba de Milestones mesmo não está=ando vazia, não apresenta maturidade. O que indica que os marcos temporais não tem definições estabelecidas e em um planejamento com revisão também não definido.
 
 ![Milestones](./imagens/milestones.png)
 
