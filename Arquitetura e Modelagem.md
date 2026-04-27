@@ -35,6 +35,8 @@ Processamento em cadeia: HTML → ContentFilter (Pruning/BM25) → MarkdownGener
 ## 2. Diagrama de Classes UML
  
 O diagrama abaixo representa o isolamento entre a camada de negócio/orquestração e a camada de IA/abstração LLM.
+
+![UML](./imagens/uml.jpeg)
  
 ## 3. Avaliação do Desacoplamento da Camada de IA
  
