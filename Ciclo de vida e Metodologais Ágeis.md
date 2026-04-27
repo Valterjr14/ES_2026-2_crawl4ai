@@ -27,7 +27,7 @@ Um ponto determinante desta análise é a má de utilização das ferramentas na
 
 ![Milestones 2](./imagens/milestones2.png)
 
-- **Milestones:** Observa-se que a aba de Milestones mesmo não estando vazia, não apresenta maturidade. O que indica que os marcos temporais não tem definições estabelecidas e em um planejamento com revisão também não definido.
+- **Milestones:** Observa-se que a aba de Milestones mesmo não estando vazia, não apresenta maturidade. O que indica que os marcos temporais não tem definições estabelecidas e nem um planejamento com revisão também não definido.
 
 ![Milestones](./imagens/milestones.png)
 
