@@ -42,3 +42,8 @@ A gestão de riscos foca-se na resiliência do software perante fatores externos
 ![RCE e LFI](./imagens/rce-lfi.png)
 
 - **Ambiente Hostil:** A adição de sistemas de detecção de anti-bot e mecanismos de fallback na versão v0.8.5 demonstra que a equipe se antecipou a possíveis falhas durante a execução do projeto.
+
+## 6. Conclusão
+Conclui-se que o Crawl4AI apresenta características de um ciclo de vida ágil, com entregas frequentes, evolução contínua e rápida correção de falhas técnicas. O projeto demonstra boa maturidade no aspecto técnico, especialmente no controle de versões e na documentação das alterações.
+
+Entretanto, foram identificadas limitações no uso de ferramentas de gestão e no acompanhamento formal do planejamento. Assim, embora apresente eficiência técnica, o projeto ainda possui oportunidades de melhoria nos processos de gestão e controle, visando maior alinhamento com modelos como MPS.BR e CMMI.
