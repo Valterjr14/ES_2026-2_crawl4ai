@@ -35,8 +35,6 @@ O Crawl4AI é uma biblioteca open source em Python que realiza web crawling e sc
 
 ## Equipe
 
-**Equipe**
-
 ---
 
 - Pedro Afonso Tavares Barreto da Silva - 202300027580
@@ -49,7 +47,7 @@ O Crawl4AI é uma biblioteca open source em Python que realiza web crawling e sc
 
 ## Estrutura da Auditoria
 
-A auditoria está dividida em cinco tópicos. Os arquivos estão organizados da seguinte forma:
+A auditoria está dividida em seis tópicos. Os arquivos estão organizados da seguinte forma:
 
 ES_2026-1_Crawl4AI/
 
@@ -64,6 +62,8 @@ ES_2026-1_Crawl4AI/
 ├── Verificação e Validação.md
 
 ├── Qualidade de Software.md
+
+├── Plano de Melhoria.md
 
 └── imagens/
 
