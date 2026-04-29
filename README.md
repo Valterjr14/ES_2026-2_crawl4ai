@@ -88,4 +88,4 @@ V. Qualidade de Software - Garantia da Qualidade (GQA) - CMMI: PPQA / MPS.BR
 ---
 
 ## Vídeo de Apresentação
-https://drive.google.com/drive/u/1/folders/16oVV_BDOrekfcRZ5SMJPD6FyoG0xX9_x?q=sharedwith:public%20parent:16oVV_BDOrekfcRZ5SMJPD6FyoG0xX9_x
+[https://drive.google.com/drive/u/1/folders/16oVV_BDOrekfcRZ5SMJPD6FyoG0xX9_x?q=sharedwith:public%20parent:16oVV_BDOrekfcRZ5SMJPD6FyoG0xX9_x](https://drive.google.com/file/d/1Hp5DoXp6a2pdk4OFmRkytcJhyGvAL3id/view?usp=sharing)
