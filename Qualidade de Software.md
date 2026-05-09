@@ -2,74 +2,82 @@
 
 ## 1. Introdução
 
-O objetivo deste relatório é analisar as práticas de Garantia da Qualidade de Software (GQA) do projeto *crawl4ai*, com base nos modelos MPS.BR (nível G) e CMMI (PPQA). A análise busca identificar como o projeto assegura a qualidade do produto e dos processos, considerando padronização, testes, automação e controle técnico.
+O objetivo deste relatório é analisar as práticas de Garantia da Qualidade de Software (GQA) presentes no projeto *Crawl4AI*, com base em referências dos modelos MPS.BR e CMMI (PPQA). A análise busca identificar evidências relacionadas à padronização do desenvolvimento, automação, organização estrutural, testes e controle técnico do projeto.
 
 ---
 
 ## 2. Padronização e Conformidade de Processos
 
-O projeto apresenta forte aderência a práticas de padronização, evidenciada pela presença de arquivos que estabelecem diretrizes claras para o desenvolvimento colaborativo:
+O projeto apresenta forte preocupação com padronização e governança do desenvolvimento colaborativo, evidenciada pela presença de documentos que definem regras e diretrizes para os contribuidores.
+
+### Principais artefatos identificados:
 
 - **CONTRIBUTING.md:** Define regras de contribuição  
 - **CODE_OF_CONDUCT.md:** Estabelece normas de comportamento  
-- **SECURITY.md:** Orienta sobre vulnerabilidades e segurança  
-- **CHANGELOG.md:** Registra alterações no projeto  
+- **SECURITY.md:** Orienta sobre reporte de vulnerabilidades e segurança  
+- **CHANGELOG.md:** Registra alterações do projeto  
 - **CONTRIBUTORS.md:** Lista os colaboradores  
 
 
 **Análise:**  
-Esses artefatos demonstram uma preocupação com governança e organização do projeto, alinhando-se às práticas de Garantia da Qualidade previstas no CMMI e MPS.BR.
+Esses artefatos demonstram preocupação com organização, colaboração e controle do processo de desenvolvimento, alinhando-se às práticas de Garantia da Qualidade previstas nos modelos CMMI e MPS.BR.
 
 ---
 
-## 3. Automação e Integração Contínua
+## 3. Automação e Apoio à Qualidade
 
-A qualidade do projeto é reforçada pelo uso de automação através da pasta `.github`, responsável por gerenciar workflows de integração contínua.
+O projeto utiliza recursos de automação por meio da pasta `.github/workflows`, contendo fluxos relacionados à publicação de versões, distribuição Docker e notificações do repositório.
 
+### Workflows identificados:
 
-**Funcionalidade:**  
-Execução automática de testes, validações e verificações a cada alteração no código.
+- Release e empacotamento do projeto  
+- Publicação de imagens Docker  
+- Notificações de eventos do GitHub  
+
 
 **Análise:**  
-A automação contribui para a detecção precoce de falhas e redução de erros, sendo uma prática essencial para a manutenção da qualidade.
+A automação contribui para maior padronização do processo de distribuição e manutenção do projeto. Entretanto, durante a auditoria, não foi identificada uma pipeline obrigatória de integração contínua executando testes automatizados em todos os Pull Requests antes do merge.
+
+Essa limitação representa uma oportunidade de melhoria para fortalecimento das práticas de garantia da qualidade.
 
 ---
 
-## 4. Verificação por Testes Automatizados
+## 4. Evidências de Verificação por Testes
 
-O projeto apresenta evidências concretas de verificação por meio de testes automatizados:
+O repositório apresenta uma estrutura organizada de testes automatizados na pasta `tests/`, cobrindo diferentes áreas do sistema.
 
-- Pasta `tests/`  
-- Arquivos como:
-  - `test_llm_webhook_feature.py`
-  - `test_webhook_implementation.py`
-)
+### Exemplos identificados:
+
+- `test_llm_webhook_feature.py`  
+- `test_webhook_implementation.py`  
+- Testes relacionados a crawling, Docker, extração estruturada e integração com LLMs  
+
 
 **Análise:**  
-A presença de testes automatizados garante maior confiabilidade do sistema, permitindo validação contínua das funcionalidades implementadas.
+A presença desses testes demonstra preocupação com confiabilidade e estabilidade das funcionalidades do projeto. Os testes funcionam como evidências importantes de verificação contínua da qualidade do software.
 
 ---
 
 ## 5. Organização Estrutural do Projeto
 
-A estrutura do repositório demonstra uma clara separação de responsabilidades:
+A estrutura do repositório apresenta separação clara de responsabilidades:
 
 - `crawl4ai/` → código principal  
 - `docs/` → documentação  
-- `tests/` → testes  
-- `prompts/` → lógica de IA  
+- `tests/` → testes automatizados  
+- `prompts/` → lógica relacionada à IA  
 - `scripts/` → automações  
-- `sbom/` → dependências  
+- `sbom/` → rastreabilidade de componentes e dependências  
 
 
 **Análise:**  
-Essa organização modular facilita a manutenção, evolução e entendimento do sistema, contribuindo para a qualidade do produto.
+Essa organização modular favorece manutenção, reutilização, entendimento do sistema e evolução do projeto, contribuindo diretamente para a qualidade do produto.
 
 ---
 
 ## 6. Gestão de Configuração e Ambiente
 
-O projeto utiliza ferramentas modernas para controle de configuração:
+O projeto utiliza arquivos modernos de configuração e gerenciamento de dependências:
 
 - `pyproject.toml`  
 - `setup.py`  
@@ -79,25 +87,28 @@ O projeto utiliza ferramentas modernas para controle de configuração:
 
 
 **Análise:**  
-Esses arquivos garantem reprodutibilidade e padronização do ambiente, permitindo que o sistema seja executado de forma consistente em diferentes contextos.
+Esses arquivos ajudam a garantir reprodutibilidade, padronização do ambiente e maior consistência na execução do sistema em diferentes contextos.
 
 ---
 
-## 7. Limitações na Gestão de Dívida Técnica
+## 7. Limitações Identificadas
 
-Apesar da boa estrutura, não foram identificados mecanismos explícitos para gestão de dívida técnica:
+Apesar das boas práticas observadas, algumas limitações relacionadas à garantia da qualidade foram identificadas:
 
-- Ausência de categorização específica em issues  
-- Falta de processos formais de refatoração  
+- Ausência de pipeline obrigatória de CI para todos os Pull Requests  
+- Ausência de mecanismos explícitos de gestão de dívida técnica  
+- Inexistência de categorização específica para débitos técnicos e refatorações  
+
 
 **Análise:**  
-Essa limitação pode impactar a evolução sustentável do projeto, dificultando a priorização de melhorias técnicas.
+Esses pontos podem impactar a evolução sustentável do projeto, dificultando a priorização de melhorias técnicas e o acompanhamento sistemático da qualidade.
 
 ---
 
 ## 8. Conclusão
 
-Conclui-se que o projeto *crawl4ai* apresenta um bom nível de maturidade em relação à Qualidade de Software, destacando-se pela padronização, automação, testes e organização estrutural.
+Conclui-se que o projeto *Crawl4AI* apresenta um bom nível de maturidade em práticas relacionadas à Qualidade de Software, destacando-se pela organização estrutural, documentação, padronização do desenvolvimento e presença de testes automatizados.
 
-Entretanto, há oportunidades de melhoria na formalização da gestão de dívida técnica e no acompanhamento sistemático da qualidade, visando maior aderência aos modelos CMMI e MPS.BR.
+Entretanto, ainda existem oportunidades de melhoria, especialmente relacionadas à formalização de processos de integração contínua e gestão de dívida técnica.
 
+De forma geral, o projeto demonstra alinhamento parcial com práticas associadas ao CMMI e MPS.BR, principalmente no apoio à qualidade do processo e do produto.
