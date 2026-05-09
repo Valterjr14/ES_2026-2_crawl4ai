@@ -209,7 +209,7 @@ Nesta auditoria, CMMI e MPS.BR foram usados apenas como referência de boas prá
 | Melhorar a rastreabilidade entre requisitos, issues, PRs e testes | A ligação existe em alguns casos, mas não aparece como um processo formal em todo o projeto. |
 | Adicionar testes específicos para validar fidelidade da saída com LLM | Os testes atuais verificam estrutura e execução, mas não garantem totalmente que a resposta da IA esteja fiel ao conteúdo original. |
 
-### 4.2 Alinhamento com MPS.BR
+### 4.2 Alinhamento com MPS.BR — Nível G
 
 | Prática relacionada ao MPS.BR | Situação observada | Justificativa |
 |---|---|---|
