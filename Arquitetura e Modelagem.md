@@ -29,6 +29,10 @@ A biblioteca LiteLLM exerce o papel de Adapter, traduzindo a chamada uniforme do
 ### Pipeline
  
 Processamento em cadeia: HTML → ContentFilter (Pruning/BM25) → MarkdownGenerator → ExtractionStrategy → CrawlResult. Cada etapa é desacoplada e pode ser trocada ou omitida via *CrawlerRunConfig*. Complementa o Microkernel definindo o fluxo interno.
+
+### Obs: 
+
+A IA (Claude) realizou a leitura do código-fonte do Crawl4AI via GitHub e auxiliou na identificação inicial dos padrões arquiteturais presentes, tarefa necessária dado que o projeto não possui documentação formal de decisões arquiteturais (ADRs). 
  
 ---
  
@@ -37,6 +41,8 @@ Processamento em cadeia: HTML → ContentFilter (Pruning/BM25) → MarkdownGener
 O diagrama abaixo representa o isolamento entre a camada de negócio/orquestração e a camada de IA/abstração LLM.
 
 ![UML](./imagens/uml.jpeg)
+
+Para o diagrama UML, foi produzida uma versão inicial no PlantUML, que foi enviada à IA para limpeza visual, reorganização de layout e padronização da notação. 
  
 ## 3. Avaliação do Desacoplamento da Camada de IA
  
