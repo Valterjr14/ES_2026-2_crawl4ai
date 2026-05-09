@@ -47,3 +47,7 @@ A gestão de riscos foca-se na resiliência do software perante fatores externos
 Conclui-se que o Crawl4AI apresenta características de um ciclo de vida ágil, com entregas frequentes, evolução contínua e rápida correção de falhas técnicas. O projeto demonstra boa maturidade no aspecto técnico, especialmente no controle de versões e na documentação das alterações.
 
 Entretanto, foram identificadas limitações no uso de ferramentas de gestão e no acompanhamento formal do planejamento. Assim, embora apresente eficiência técnica, o projeto ainda possui oportunidades de melhoria nos processos de gestão e controle, visando maior alinhamento com modelos como MPS.BR e CMMI.
+
+## 7. Ferramentas de IA Utilizadas
+ 
+Este tópico contou com o apoio de três ferramentas de IA: o **Claude** foi usado na estruturação e organização do documento; o **ChatGPT** auxiliou na redação e revisão dos textos; e o **Gemini** foi utilizado na análise do repositório e no levantamento das evidências.
