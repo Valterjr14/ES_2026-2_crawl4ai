@@ -108,3 +108,7 @@ O Crawl4AI demonstra **boa rastreabilidade operacional** entre issues, pull requ
 **No entanto**, a **ausência de um processo formal de RFC** representa o principal gap identificado. Projetos que buscam certificação MPS.BR Nível G precisariam implementar um mecanismo estruturado para avaliação e aprovação de mudanças significativas antes da implementação.
 
 **Recomendação para certificação:** Estabelecer um processo RFC documentado, com template definido e fase mínima de discussão de 7 dias para mudanças arquiteturais relevantes.
+
+## 8. Uso de IA
+
+Este tópico contou com o apoio do *DeepSeek*, utilizado para orientação na estratégia de busca, estruturação e organização do documento, planejamento passo a passo da análise do repositório, criação das tabelas de rastreabilidade e formatação do relatório final. Todo o conteúdo foi validado manualmente pela equipe.
